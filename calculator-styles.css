@@ -1,0 +1,27 @@
+button{
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 5px;  
+  margin-bottom: 5px;
+}
+.calculator-grid{
+  display: grid;
+  grid-template-columns: 60px 60px 60px 60px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+.calculator{
+  border: 2px;
+  border-color: burlywood;
+  border-style: solid;
+  border-radius: 15px;
+  width: fit-content;
+}
+.calculator-title{
+  display: block;
+  text-align: center;
+}
